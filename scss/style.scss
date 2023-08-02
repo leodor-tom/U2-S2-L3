@@ -1,0 +1,43 @@
+@import "./partials/spacings";
+@import "./partials/colors";
+@import "./partials/resets";
+@import "./partials/fonts";
+@import "./partials/buttons";
+@import "./partials/animation";
+nav {
+  display: flex;
+  ul {
+    display: flex;
+    list-style-type: none;
+    li {
+    }
+  }
+}
+
+header {
+  display: flex;
+  section {
+    background-color: $bg-hero;
+    h1 {
+      color: #00db00;
+      font-size: $f-h1;
+      animation: yep 1s 0.3s both;
+      opacity: 0;
+    }
+    p {
+      font-size: $f-p-l;
+      animation: yep 1s 1.1s both;
+      opacity: 0;
+    }
+    button {
+      min-width: 50px;
+      border-radius: 20px;
+      animation: yep 1s 2.2s both;
+      opacity: 0;
+    }
+  }
+}
+
+.griglia {
+  display: flex;
+}

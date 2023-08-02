@@ -1,0 +1,13 @@
+$btn-colors: $color-btn-1, $color-btn-2, $color-btn-3;
+
+@each $value in $btn-colors {
+  .btn-1 {
+    background-color: $color-btn-1;
+  }
+  .btn-2 {
+    background-color: $color-btn-2;
+  }
+  .btn-3 {
+    background-color: $color-btn-3;
+  }
+}
